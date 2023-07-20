@@ -29,7 +29,7 @@ const Product = () => {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>$199</span>
+        <span className='price'>$199</span>
         <p>Linen shirt. Designed for comfort and a proper fit. Sizes vary based on height and body measurements.</p>
         {/* Add use states for increasing and decreasing the quantities of a garment that a user may choose to order */}
         <div className="quantity">
@@ -42,7 +42,7 @@ const Product = () => {
         <button className='add'>
           <AddShoppingCartIcon/> ADD TO CART
         </button>
-        <div className="link">
+        <div className="links">
           <div className="item">
             <FavoriteBorderIcon/> ADD TO WISH LIST
           </div>
@@ -54,11 +54,11 @@ const Product = () => {
               <span>Vendor: Polo</span>
               <span>Product Type: T-Shirt</span>
               <span>Tag: T-Shirt, Women, Top</span>
-            </div>
-            <hr />
-            <div className="info">
-              <span>DESCRIPTION</span>
-              <hr />
+        </div>
+        <hr />
+        <div className="info">
+          <span>DESCRIPTION</span>
+        <hr />
               <span>ADDITIONAL INFORMATION</span>
               <hr />
               <span>FAQ</span>
